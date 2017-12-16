@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cherevko.dmytro</OriginalElement>
+  <nodes>
+    <node x="472.0" y="357.0">com.cherevko.dmytro.OtherFan</node>
+    <node x="295.75" y="212.0">com.cherevko.dmytro.Observer</node>
+    <node x="337.25" y="0.0">com.cherevko.dmytro.FootballNews</node>
+    <node x="238.0" y="357.0">com.cherevko.dmytro.ShahterFan</node>
+    <node x="434.4413265306123" y="492.0">com.cherevko.dmytro.Main</node>
+    <node x="0.0" y="357.0">com.cherevko.dmytro.DynamoFan</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cherevko.dmytro.Main" target="com.cherevko.dmytro.Observer">
+      <point x="-14.250000000000057" y="-26.0" />
+      <point x="505.69132653061223" y="452.0" />
+      <point x="461.5" y="452.0" />
+      <point x="461.5" y="337.0" />
+      <point x="434.60714285714283" y="337.0" />
+      <point x="30.857142857142833" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.ShahterFan" target="com.cherevko.dmytro.Observer">
+      <point x="71.0" y="-37.5" />
+      <point x="415.5" y="337.0" />
+      <point x="403.75" y="337.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.ShahterFan" target="com.cherevko.dmytro.FootballNews">
+      <point x="-71.0" y="-37.5" />
+      <point x="273.5" y="307.0" />
+      <point x="285.25" y="307.0" />
+      <point x="285.25" y="172.0" />
+      <point x="375.6875" y="172.0" />
+      <point x="-64.0625" y="71.0" />
+    </edge>
+    <edge source="com.cherevko.dmytro.OtherFan" target="com.cherevko.dmytro.Observer">
+      <point x="-1.4210854715202004E-14" y="-37.5" />
+      <point x="573.5" y="317.0" />
+      <point x="496.32142857142856" y="317.0" />
+      <point x="92.57142857142856" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.Main" target="com.cherevko.dmytro.FootballNews">
+      <point x="71.24999999999994" y="-26.0" />
+      <point x="591.1913265306122" y="472.0" />
+      <point x="696.5" y="472.0" />
+      <point x="696.5" y="162.0" />
+      <point x="529.4375" y="162.0" />
+      <point x="89.6875" y="71.0" />
+    </edge>
+    <edge source="com.cherevko.dmytro.OtherFan" target="com.cherevko.dmytro.FootballNews">
+      <point x="67.6666666666667" y="-37.5" />
+      <point x="641.1666666666667" y="337.0" />
+      <point x="618.2874149659864" y="337.0" />
+      <point x="618.2874149659864" y="182.0" />
+      <point x="478.1875" y="182.0" />
+      <point x="38.4375" y="71.0" />
+    </edge>
+    <edge source="com.cherevko.dmytro.Main" target="com.cherevko.dmytro.DynamoFan">
+      <point x="-71.25000000000006" y="-26.0" />
+      <point x="448.69132653061223" y="472.0" />
+      <point x="109.0" y="472.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.DynamoFan" target="com.cherevko.dmytro.FootballNews">
+      <point x="-72.66666666666669" y="-37.5" />
+      <point x="36.333333333333314" y="337.0" />
+      <point x="96.18962585034006" y="337.0" />
+      <point x="96.18962585034006" y="162.0" />
+      <point x="350.0625" y="162.0" />
+      <point x="-89.6875" y="71.0" />
+    </edge>
+    <edge source="com.cherevko.dmytro.Observer" target="com.cherevko.dmytro.FootballNews">
+      <point x="-72.0" y="-37.5" />
+      <point x="331.75" y="182.0" />
+      <point x="401.3125" y="182.0" />
+      <point x="-38.4375" y="71.0" />
+    </edge>
+    <edge source="com.cherevko.dmytro.FootballNews" target="com.cherevko.dmytro.Observer">
+      <point x="-12.8125" y="71.0" />
+      <point x="426.9375" y="192.0" />
+      <point x="403.75" y="192.0" />
+      <point x="0.0" y="-37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.Main" target="com.cherevko.dmytro.OtherFan">
+      <point x="14.249999999999943" y="-26.0" />
+      <point x="534.1913265306122" y="452.0" />
+      <point x="573.5" y="452.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.Main" target="com.cherevko.dmytro.ShahterFan">
+      <point x="-42.75000000000006" y="-26.0" />
+      <point x="477.19132653061223" y="462.0" />
+      <point x="344.5" y="462.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.cherevko.dmytro.DynamoFan" target="com.cherevko.dmytro.Observer">
+      <point x="72.66666666666669" y="-37.5" />
+      <point x="181.66666666666669" y="327.0" />
+      <point x="342.0357142857143" y="327.0" />
+      <point x="-61.71428571428572" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="361.5" y="272.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

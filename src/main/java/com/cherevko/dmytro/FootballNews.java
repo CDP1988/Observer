@@ -5,8 +5,8 @@ import java.util.List;
 
 public class FootballNews {
 
-    String news;
-    List<Observer> observers = new ArrayList<>();
+    private String news;
+    private List<Observer> observers = new ArrayList<>();
 
     public String getNews() {
         return news;
@@ -17,7 +17,7 @@ public class FootballNews {
      * When the news are set, observers are notifying
      * @param news String
      */
-    public void setNews(String news) {
+    public void setNews(String news) throws InterruptedException {
         this.news = news;
         System.out.println("\nTeam: " + news);
         notifyAllObservers();
@@ -30,8 +30,9 @@ public class FootballNews {
     /**
      * The notifyAllObservers method is where the notify all observers.
      */
-    public void notifyAllObservers() {
+    private void notifyAllObservers() throws InterruptedException {
         for (Observer observer : observers) {
+            Thread.sleep(1500);
             observer.update();
         }
     }

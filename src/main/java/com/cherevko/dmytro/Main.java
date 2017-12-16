@@ -6,7 +6,7 @@ public class Main {
      * The main method is where the FootballNews and Observers are created.
      * When the news are set, observers are commenting
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         FootballNews footballNews = new FootballNews();
 
@@ -15,6 +15,7 @@ public class Main {
         Observer otherFan = new OtherFan(footballNews);
 
         footballNews.setNews("Besiktas");
+        Thread.sleep(2500);
         footballNews.setNews("Roma");
     }
 }
